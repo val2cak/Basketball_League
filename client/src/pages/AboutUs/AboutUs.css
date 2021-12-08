@@ -1,0 +1,20 @@
+.aboutUs {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px 5px 10px;
+}
+
+.aboutUsDiv {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 70px;
+}
+
+.aboutUsLabel {
+    color: #E98B1B;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 70px;
+    box-shadow: rgba(99, 99, 99, 0.8) 2px 2px 8px 2px;
+}

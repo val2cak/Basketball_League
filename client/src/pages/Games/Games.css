@@ -1,0 +1,82 @@
+.plusIcon {
+     color: white;
+     font-size: 30px;
+     margin: 10px 10px 5px 10px;
+}
+
+.plusIcon:hover {
+     color: #e98b1b;
+}
+
+.upcomingGames,
+.pastGames {
+     display: flex;
+     flex-flow: row wrap;
+     width: 100%;
+}
+
+.game {
+     width: 300px;
+     height: 300px;
+     display: flex;
+     flex-flow: column;
+     font-family: Arial, Helvetica, sans-serif;
+     box-shadow: rgba(99, 99, 99, 0.3) 0px 2px 8px 0px;
+     margin: 10px 0px 10px 30px;
+     border-radius: 100%;
+     justify-content: center;
+     background-image: url("1279864510.svg");
+}
+
+.game:hover {
+     box-shadow: rgba(100, 100, 111, 0.5) 0px 7px 29px 0px;
+     cursor: pointer;
+     transform: scale(1.2);
+     transition: transform 1s;
+}
+
+.game .firstClub,
+.secondClub,
+.vs {
+     display: grid;
+     place-content: center;
+     color: white;
+     font-size: 15px;
+     font-weight: bold;
+     margin: 5px;
+}
+
+.game .dateTime,
+.gameScore {
+     display: grid;
+     place-content: center;
+     color: white;
+     font-size: 20px;
+     font-weight: bold;
+     margin: 5px;
+}
+
+.gameClubs {
+     display: flex;
+     flex-direction: column;
+}
+
+.headerGames {
+     color: white;
+     text-align: center !important;
+     font-weight: bold;
+     font-size: 40px;
+     box-shadow: rgba(99, 99, 99, 0.8) 2px 2px 8px 2px;
+}
+
+.deleteGame {
+     color: white;
+     font-size: 30px;
+     padding: 5px;
+     text-align: center;
+}
+
+.deleteGame:hover {
+     color: #e98b1b;
+     cursor: pointer;
+}

@@ -1,0 +1,37 @@
+.history {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px 5px 10px;
+}
+
+.historyDiv {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    width: 1000px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 70px;
+}
+
+.historyLabel {
+    color: #E98B1B;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 70px;
+    box-shadow: rgba(99, 99, 99, 0.8) 2px 2px 8px 2px;
+}
+
+.pastWinners {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 70px;
+}

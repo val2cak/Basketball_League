@@ -1,0 +1,90 @@
+.club {
+     display: flex;
+     padding-top: 30px;
+}
+
+.name {
+     font-size: 40px;
+     font-weight: bold;
+     color: white;
+     text-align: center;
+     box-shadow: rgba(99, 99, 99, 0.8) 2px 2px 8px 2px;
+}
+
+.logoClub {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     height: 300px;
+     width: 300px;
+}
+
+.back {
+     color: white;
+     font-size: 30px;
+     text-align: start;
+     margin-left: 10px;
+     margin-top: 10px;
+     display: flex;
+}
+
+.back:hover {
+     color: #e98b1b;
+}
+
+.editDelete {
+     display: flex;
+     flex-direction: row-reverse;
+     margin-top: -45px;
+     margin-right: 10px;
+}
+
+.editClub,
+.deleteClub,
+.addPlayer {
+     color: white;
+     font-size: 30px;
+     padding: 5px;
+}
+
+.editClub:hover,
+.deleteClub:hover,
+.addPlayer:hover {
+     color: #e98b1b;
+     cursor: pointer;
+}
+
+.players {
+     display: flex;
+     text-align: center;
+     flex-direction: column;
+}
+
+.playerName {
+     font-size: 30px;
+     font-weight: bold;
+     color: white;
+}
+
+h1 {
+     font-size: 40px;
+     font-weight: bold;
+     color: #e98b1b;
+     text-align: center;
+     box-shadow: rgba(99, 99, 99, 0.8) 2px 2px 8px 2px;
+}
+
+.deletePlayer {
+     color: white;
+     font-size: 30px;
+     padding: 5px;
+     display: flex;
+     flex-direction: row-reverse;
+     margin-top: -45px;
+     margin-right: 10px;
+}
+
+.deletePlayer:hover {
+     color: #e98b1b;
+     cursor: pointer;
+}

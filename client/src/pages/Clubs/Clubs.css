@@ -1,0 +1,33 @@
+.plusIcon {
+    color: white;
+    font-size: 30px;
+    margin: 0px 10px 5px 10px;
+}
+
+.plusIcon:hover {
+    color: #E98B1B;
+}
+
+.clubs {
+    padding: 80px 11px 11px 60px;
+    display: flex;  
+    flex-flow: row wrap;
+}
+
+.clubsLogo {
+    height: 300px;
+    width: 300px;
+}
+
+.clubsLogo:hover {
+    cursor: pointer;
+    box-shadow: rgba(100, 100, 111, 0.7) 0px 7px 29px 0px;
+    transform: scale(1.2);
+    transition: transform 1s;
+}
+
+.clubsLogo img{
+    max-width: 100%;
+    max-height: 100%;
+}
+

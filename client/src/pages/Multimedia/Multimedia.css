@@ -1,0 +1,9 @@
+.plusIcon {
+    color: white;
+    font-size: 30px;
+    margin: 10px 10px 5px 10px;
+}
+
+.plusIcon:hover {
+    color: #E98B1B;
+}

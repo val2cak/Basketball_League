@@ -1,0 +1,71 @@
+.formContainer {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1000px!important;
+    height: auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    color: #E98B1B;
+    margin-top: -30px!important;
+    margin-left: 450px!important;
+  }
+  
+  .formContainer #titleCreatePost {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #E98B1B;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 20px;
+  }
+
+  .formContainer #textCreatePost {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 450px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #E98B1B;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 20px;
+    box-sizing: border-box;
+  }
+  
+  .formContainer button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #E98B1B;
+    margin-top: 15px;
+    margin-left: 0.8mm;
+    height: 40px;
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+  }
+  
+  .formContainer button:hover {
+    cursor: pointer;
+    background-color: rgb(199, 199, 199);
+  }
+  
+  span {
+    color: red;
+  }
+
+  .backIc {
+    color: white;
+    font-size: 30px;
+    text-align: start;
+    margin-left: 10px;
+    margin-top: 10px;
+    display: flex;
+  }
+
+.backIc:hover {
+    color: #E98B1B;
+}

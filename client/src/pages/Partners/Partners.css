@@ -1,0 +1,22 @@
+.partners {
+    padding: 80px 11px 11px 80px;
+    display: flex;  
+    flex-flow: row wrap;
+}
+
+.partner {
+    height: auto;
+    width: 400px;
+
+}
+
+.partner:hover {
+    box-shadow: rgba(100, 100, 111, 0.7) 0px 7px 29px 0px;
+    transform: scale(1.2);
+    transition: transform 1s;
+}
+
+.partner img{
+    max-width: 100%;
+    max-height: 100%;
+}
