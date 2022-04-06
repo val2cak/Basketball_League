@@ -14,9 +14,6 @@ function Home() {
                          alt="ball"
                     />
                </div>
-               <div className="text-on-image">
-                         SPLITSKA KOŠARKAŠKA LIGA  
-               </div>
           </div>
      )}
 
