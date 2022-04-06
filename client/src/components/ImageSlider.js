@@ -35,8 +35,7 @@ const ImageSlider = ({ slides }) => {
                     <div className={index === current ? 'slide.active' : 'slide'} key={index}>
                         {index === current && (<img src={slide.image} alt="travel image" className="image"/>)}
                         <div className="text-on-image">
-            <FaBasketballBall/>
-            SPLITSKA KOŠARKAŠKA LIGA  
+            <FaBasketballBall/> 
             <FaBasketballBall/>
             </div>
                     </div>
